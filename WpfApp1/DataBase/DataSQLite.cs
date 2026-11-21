@@ -11,7 +11,7 @@ namespace WpfApp1.DataSQL
 {
     public class DataSQLite : IDataBaseService
     {
-        static string Connstr { get; set; } = "Data Source=HmiDb.db;Version=3;";
+        string Connstr { get; set; } = $"Data Source={AppDomain.CurrentDomain.BaseDirectory}HmiDb.db;Version=3;";
         private readonly object _dblock = new();
         public event Action<string> Log;
 
