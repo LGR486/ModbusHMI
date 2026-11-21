@@ -51,7 +51,7 @@
 
 1. 克隆本项目到本地：
    ```bash
-   git clone https://github.com/LGR486/C-.git
+   git clone https://github.com/LGR486/ModbusHMI.git
 2. 确保本地已安装 Visual Studio 2022 及 .NET Framework 4.8 开发环境。
 3. 启动一个 Modbus 模拟器（如 Modbus Slave），配置 IP 为 127.0.0.1，端口 502，站号 1。
 4. 使用 VS 打开解决方案 WinApp1.sln，编译并运行。
